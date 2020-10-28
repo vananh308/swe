@@ -24,7 +24,8 @@ import javax.swing.JPanel;
  * @author vananh
  */
 public class manager {
-
+    
+    int vananh = 1;
     PuzzelGUI viewPuzzel;
     int size = 3; // vì thấp nhất là 3
     int moveCount = 0;
@@ -33,6 +34,7 @@ public class manager {
     JButton[][] matrix1;
     runElapse r = new runElapse();
     // Assignment2 SWEeeeeeeee
+    
 
     public manager(PuzzelGUI viewPuzzel) {
         this.viewPuzzel = viewPuzzel;
