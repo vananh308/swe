@@ -32,6 +32,7 @@ public class manager {
     JButton[][] matrix;
     JButton[][] matrix1;
     runElapse r = new runElapse();
+    // Assignment2 SWEeeeeeeee
 
     public manager(PuzzelGUI viewPuzzel) {
         this.viewPuzzel = viewPuzzel;
